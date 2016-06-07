@@ -269,6 +269,9 @@
   color: #cccccc;
   cursor: default;
 }
+.Select-option.is-marked {
+  background-color: lightgray;
+}
 .Select-noresults {
   box-sizing: border-box;
   color: #999999;

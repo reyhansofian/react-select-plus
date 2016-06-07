@@ -848,6 +848,7 @@ const Select = React.createClass({
 							'is-selected': isSelected,
 							'is-focused': isFocused,
 							'is-disabled': option.disabled,
+							'is-marked': option.marked
 						});
 
 						return (

@@ -1,14 +1,14 @@
 {
-  "name": "react-select-plus",
+  "name": "react-select-plus-with-marked",
   "version": "1.0.0-beta13",
   "description": "A Select control built with and for ReactJS",
   "main": "lib/Select.js",
   "style": "dist/react-select-plus.min.css",
-  "author": "HubSpot",
+  "author": "Reyhan Sofian",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HubSpot/react-select-plus.git"
+    "url": "https://github.com/reyhansofian/react-select-plus-with-marked.git"
   },
   "dependencies": {
     "classnames": "^2.2.4",

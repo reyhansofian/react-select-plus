@@ -1320,7 +1320,8 @@ var Select = _react2['default'].createClass({
 									'Select-option': true,
 									'is-selected': isSelected,
 									'is-focused': isFocused,
-									'is-disabled': option.disabled
+									'is-disabled': option.disabled,
+									'is-marked': option.marked
 								});
 
 								return _react2['default'].createElement(

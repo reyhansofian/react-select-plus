@@ -1,5 +1,5 @@
 import React from 'react';
-import Select from 'react-select-plus';
+import Select from 'react-select-plus-with-marked';
 
 var ops = [{
 	label: 'Black',
@@ -31,7 +31,8 @@ var ops = [{
 			value: 'medium_purple'
 		}, {
 			label: 'Dark Purple',
-			value: 'dark_purple'
+			value: 'dark_purple',
+			marked: true
 		}]
 	}, {
 		label: 'Green',

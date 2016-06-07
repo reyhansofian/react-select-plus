@@ -1,5 +1,5 @@
 import React from 'react';
-import Select from 'react-select-plus';
+import Select from 'react-select-plus-with-marked';
 
 const STATES = require('../data/states');
 

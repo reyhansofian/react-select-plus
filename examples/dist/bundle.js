@@ -176,7 +176,7 @@ var Async = _react2['default'].createClass({
 
 module.exports = Async;
 
-},{"./Select":"react-select-plus","./utils/stripDiacritics":6,"react":undefined}],2:[function(require,module,exports){
+},{"./Select":"react-select-plus-with-marked","./utils/stripDiacritics":6,"react":undefined}],2:[function(require,module,exports){
 'use strict';
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
@@ -516,7 +516,7 @@ module.exports = function stripDiacritics(str) {
 	return str;
 };
 
-},{}],"react-select-plus":[function(require,module,exports){
+},{}],"react-select-plus-with-marked":[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -1429,7 +1429,8 @@ var Select = _react2['default'].createClass({
 									'Select-option': true,
 									'is-selected': isSelected,
 									'is-focused': isFocused,
-									'is-disabled': option.disabled
+									'is-disabled': option.disabled,
+									'is-marked': option.marked
 								});
 
 								return _react2['default'].createElement(

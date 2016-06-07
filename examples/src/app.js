@@ -2,7 +2,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Select from 'react-select-plus';
+// import Select from 'react-select-plus-with-marked';
 
 import Contributors from './components/Contributors';
 import CustomComponents from './components/CustomComponents';
